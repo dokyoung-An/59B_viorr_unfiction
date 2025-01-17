@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: ??? ???? VIORR 59B - ??.ggsk
-// Generated 2025-01-17T11:35:33
+// Generated 2025-01-17T13:40:09
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_minimap_button', 2, false, { ignoreInState: 0  });
@@ -19226,12 +19226,13 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 10px;';
 		hs+='color : rgba(255,255,255,1);';
 		hs+='cursor : default;';
-		hs+='height : 28px;';
+		hs+='height : 56px;';
 		hs+='left : 10px;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 160px;';
 		hs+='pointer-events:auto;';
+		hs+='line-height:10px';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		hs ='';
@@ -19242,7 +19243,7 @@ function pano2vrSkin(player,base) {
 		hs+='max-height: 100%;';
 		hs+='font-size: 12px;';
 		hs+='font-weight: inherit;';
-		hs+='text-align: center;';
+		hs+='text-align: left;';
 		hs+='position: absolute;';
 		hs+='top: 50%;';
 		hs+='transform: translate(0, -50%);';
@@ -19252,7 +19253,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._text_25.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("59B type \uac70\uc2e4 \uba54\uc778 \ubdf0", params);
+			var hs = player._("59B type \uac70\uc2e4 \uba54\uc778 \ubdf0\n<br>\u203b\uce35\ubcc4 \uc0c1\uc774\ud560 \uc218 \uc788\uc74c", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -19968,12 +19969,13 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 10px;';
 		hs+='color : rgba(255,255,255,1);';
 		hs+='cursor : default;';
-		hs+='height : 30px;';
+		hs+='height : 60px;';
 		hs+='left : 10px;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 140px;';
 		hs+='pointer-events:auto;';
+		hs+='line-height:10px';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		hs ='';
@@ -19984,7 +19986,7 @@ function pano2vrSkin(player,base) {
 		hs+='max-height: 100%;';
 		hs+='font-size: 11px;';
 		hs+='font-weight: inherit;';
-		hs+='text-align: center;';
+		hs+='text-align: left;';
 		hs+='position: absolute;';
 		hs+='top: 50%;';
 		hs+='transform: translate(0, -50%);';
@@ -19994,7 +19996,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._text_25m.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("59B type \uac70\uc2e4 \uba54\uc778 \ubdf0", params);
+			var hs = player._("59B type \uac70\uc2e4 \uba54\uc778 \ubdf0\n<br>\u203b\uce35\ubcc4 \uc0c1\uc774\ud560 \uc218 \uc788\uc74c", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -20550,7 +20552,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._display6.logicBlock_visible();
 		me._display6.onclick=function (e) {
-			player.setVariableValue('vis_diplay', false);
+			player.setVariableValue('vis_displaymirror', false);
 		}
 		me._display6.ggUpdatePosition=function (useTransition) {
 		}
@@ -20864,7 +20866,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._text_2220.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("\uac70\uc6b8\uc7a5 \uac04\uc811\uc870\uba85\uc740 \ub514\uc2a4\ud50c\ub808\uc774 \uc81c\ud488\uc785\ub2c8\ub2e4.\n", params);
+			var hs = player._("\uac70\uc6b8\uc7a5 \uac04\uc811\uc870\uba85\uc740 <br>\ub514\uc2a4\ud50c\ub808\uc774 \uc81c\ud488\uc785\ub2c8\ub2e4.\n", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
